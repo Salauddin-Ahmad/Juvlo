@@ -1,0 +1,19 @@
+
+
+.ft-animation-holder img {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.ft-animation-holder img.active {
+  top: 0;
+}
+
+.ft-animation-holder {
+  transform:  rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    translate3d(0px, 0px, 0px) skew(-10deg, 0deg);
+  perspective: 1000px;
+  perspective-origin: 59% 164%;
+}

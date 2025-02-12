@@ -1,0 +1,31 @@
+.single-faq {
+  position: relative;
+  z-index: 5;
+}
+
+.single-faq .shadow {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  background: linear-gradient(
+    90deg,
+    #44ff9a -0.55%,
+    #44b0ff 22.86%,
+    #8b44ff 48.36%,
+    #f64 73.33%,
+    #ebff70 99.34%
+  );
+  filter: blur(35px);
+  z-index: -10;
+  transform: scale(1.02);
+  transition: 0.5s ease-in-out;
+}
+
+.single-faq .shadow.hide {
+  visibility: hidden;
+  opacity: 0;
+}

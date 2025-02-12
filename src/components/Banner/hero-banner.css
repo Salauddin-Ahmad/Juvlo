@@ -1,0 +1,8 @@
+#hero--banner--mockup .mockup {
+  transform-style: preserve-3d;
+}
+
+#hero--banner--mockup .mockup.smooth {
+  transition: 0.3s ease-in-out;
+}
+
