@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="container pt-14 relative flex items-center bg-gray-900 text-white mx-4 p-4 md:p-8 overflow-hidden h-[300px] md:h-[230px]  border rounded-xl my-5">
+      <section className="container pt-14 relative flex items-center bg-gray-900 text-white mx-auto p-4 md:p-8 overflow-hidden h-[300px] md:h-[230px]  border rounded-xl my-5">
         <div className="flex-1 px-8">
           <h2 className="text-2xl md:text-4xl font-semibold">
             Become Part of the Fastest Growing Community of Creators
@@ -23,7 +23,7 @@ const Footer = () => {
       </section>
 
       {/* Footer Section */}
-      <footer className="container flex flex-col md:flex-row justify-between mx-4 items-center p-6 bg-gradient-to-r border-b border-black">
+      <footer className="container flex flex-col md:flex-row justify-between mx-auto items-center p-6 bg-gradient-to-r border-b border-black">
         {/* Left Section */}
         <div className="flex flex-col items-start gap-4">
           {/* <Link to="/"> */}
